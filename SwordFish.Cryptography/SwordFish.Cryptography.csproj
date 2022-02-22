@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>SwordFish.ico</ApplicationIcon>
+    <Company>John93562</Company>
+    <Description>Cryptography simplified using AES.</Description>
+    <Copyright>John93562</Copyright>
+    <PackageIcon>SwordFishIcon.png</PackageIcon>
+    <PackageTags>1.0.0</PackageTags>
+    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SwordFish.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Swordfish\Design\SwordFishIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

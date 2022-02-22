@@ -1,0 +1,185 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Design\SwordFish.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Design\buymeakatana.png" />
+    <None Remove="Design\buymeakatana_hovered.png" />
+    <None Remove="Design\exit.png" />
+    <None Remove="Design\exit_hovered.png" />
+    <None Remove="Design\EyeSpy.ttf" />
+    <None Remove="Design\file.png" />
+    <None Remove="Design\file_hovered.png" />
+    <None Remove="Design\folder.png" />
+    <None Remove="Design\folder_hovered.png" />
+    <None Remove="Design\Fonts\Exo\Exo-Black.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-BlackItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Bold.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-BoldItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-ExtraBold.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-ExtraBoldItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-ExtraLight.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-ExtraLightItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Italic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Light.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-LightItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Medium.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-MediumItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Regular.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-SemiBold.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-SemiBoldItalic.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-Thin.ttf" />
+    <None Remove="Design\Fonts\Exo\Exo-ThinItalic.ttf" />
+    <None Remove="Design\Fonts\Sakurata\Sakurata-DOGnE.otf" />
+    <None Remove="Design\Fonts\Sakurata\SAKURATA.otf" />
+    <None Remove="Design\Fonts\Sakurata\SAKURATA.ttf" />
+    <None Remove="Design\gr.png" />
+    <None Remove="Design\info.png" />
+    <None Remove="Design\info_hovered.png" />
+    <None Remove="Design\info_triangle.png" />
+    <None Remove="Design\katana_logo.png" />
+    <None Remove="Design\minimize.png" />
+    <None Remove="Design\minimize_hovered.png" />
+    <None Remove="Design\us.png" />
+    <None Remove="SwordFishIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Design\buymeakatana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\buymeakatana_hovered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\exit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\exit_hovered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\file.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\file_hovered.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\folder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\folder_hovered.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Black.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-BlackItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-BoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-ExtraBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-ExtraBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-ExtraLight.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-ExtraLightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Italic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Light.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-LightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Medium.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-MediumItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-SemiBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-Thin.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Exo\Exo-ThinItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Sakurata\SAKURATA.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\Fonts\Sakurata\SAKURATA.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\gr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\info.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\info_hovered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\info_triangle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\katana_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\minimize_hovered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\us.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\SwordFish.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Design\SwordFishIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Clowd.Squirrel" Version="2.7.89-pre" />
+    <PackageReference Include="LoadingSpinner.WPF" Version="1.0.0" />
+    <PackageReference Include="NuGet.CommandLine" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwordFish.Cryptography\SwordFish.Cryptography.csproj" />
+  </ItemGroup>
+
+</Project>

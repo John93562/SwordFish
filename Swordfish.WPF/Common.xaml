@@ -1,0 +1,51 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <BooleanToVisibilityConverter x:Key="BoolToVisConverter" />
+
+
+    <Color x:Key="Brown2800Color">#CCC5BD</Color>
+    <Color x:Key="Brown200Color">#6C6153</Color>
+    <Color x:Key="Brown300Color">#75624A</Color>
+    <Color x:Key="Brown21000Color">#F8F7F6</Color>
+    <Color x:Key="Brown1000Color">#B86A07</Color>
+    <Color x:Key="Brown2900Color">#E2DEDA</Color>
+    <Color x:Key="Brown400Color">#7F6340</Color>
+
+    <Color x:Key="Red2600Color">#C97665</Color>
+    <Color x:Key="Red300Color">#B4847A</Color>
+
+    <Color x:Key="Red2700Color">#D6978A</Color>
+    <Color x:Key="Red400Color">#BF7D6F</Color>
+    <Color x:Key="Red500Color">#C97665</Color>
+    <Color x:Key="Red600Color">#D36F5B</Color>
+    <Color x:Key="Red2100Color">#22100C</Color>
+
+    <system:Double x:Key="FontSizeh0">102</system:Double>
+    <system:Double x:Key="FontSizeh1">72</system:Double>
+    <system:Double x:Key="FontSizeh2">51</system:Double>
+    <system:Double x:Key="FontSizeh3">36</system:Double>
+    <system:Double x:Key="FontSizeh4">25</system:Double>
+    <system:Double x:Key="FontSizeh5">18</system:Double>
+    <system:Double x:Key="FontSizeh6">13</system:Double>
+    <system:Double x:Key="FontSizeh7">9</system:Double>
+    <system:Double x:Key="FontSizeh8">6</system:Double>
+
+    <SolidColorBrush x:Key="Brown2800Brush" Color="{StaticResource Brown2800Color}" />
+    <SolidColorBrush x:Key="Brown200Brush" Color="{StaticResource Brown200Color}" />
+    <SolidColorBrush x:Key="Brown400Brush" Color="{StaticResource Brown400Color}" />
+    <SolidColorBrush x:Key="Brown300Brush" Color="{StaticResource Brown300Color}" />
+    <SolidColorBrush x:Key="Brown1000Brush" Color="{StaticResource Brown1000Color}" />
+    <SolidColorBrush x:Key="Brown21000Brush" Color="{StaticResource Brown21000Color}" />
+    <SolidColorBrush x:Key="Brown2900Brush" Color="{StaticResource Brown2900Color}" />
+    <SolidColorBrush x:Key="Red300Brush" Color="{StaticResource Red300Color}" />
+    <SolidColorBrush x:Key="Red400Brush" Color="{StaticResource Red400Color}" />
+    <SolidColorBrush x:Key="Red600Brush" Color="{StaticResource Red600Color}" />
+    <SolidColorBrush x:Key="Red2600Brush" Color="{StaticResource Red2600Color}" />
+    <SolidColorBrush x:Key="Red2700Brush" Color="{StaticResource Red2700Color}" />
+    <SolidColorBrush x:Key="Red2100Brush" Color="{StaticResource Red2100Color}" />
+    <SolidColorBrush x:Key="Red500Brush" Color="{StaticResource Red500Color}" />
+    <FontFamily x:Key="TitleFont">pack://application:,,,/Design/Fonts/Sakurata/#Sakurata</FontFamily>
+    <FontFamily x:Key="MainFont">pack://application:,,,/Design/Fonts/Exo/#Exo</FontFamily>
+</ResourceDictionary>
